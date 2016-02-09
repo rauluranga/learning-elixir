@@ -1,8 +1,10 @@
-%{"certifi": {:hex, :certifi, "0.3.0"},
+%{"benchwarmer": {:git, "https://github.com/mroth/benchwarmer.git", "87b4ff4364e269513184464a913a860f6da77831", []},
+  "certifi": {:hex, :certifi, "0.3.0"},
   "floki": {:hex, :floki, "0.7.1"},
   "hackney": {:hex, :hackney, "1.4.8"},
   "httpoison": {:hex, :httpoison, "0.8.1"},
   "idna": {:hex, :idna, "1.0.3"},
   "mimerl": {:hex, :mimerl, "1.0.2"},
   "mochiweb": {:hex, :mochiweb, "2.12.2"},
+  "poolboy": {:git, "https://github.com/devinus/poolboy.git", "3bb3972617b3706b7fda6e264bf6bdaefbb833cd", []},
   "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"}}

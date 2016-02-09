@@ -8,6 +8,9 @@ defmodule Playground.InstaSaver do
           saveImageFromUrl line
          end)
   end
-
+  
+  def run do
+    IO.puts inspect :timer.tc(Playground.InstaSaver, :parseFile, ["public/data.txt"])
+  end
 end
 
