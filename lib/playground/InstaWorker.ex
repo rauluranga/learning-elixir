@@ -11,7 +11,7 @@ defmodule Playground.InstaWorker do
 
   def handle_call(data, from, state) do
     result = Playground.InstaSaver.saveImageFromUrl data
-    IO.puts "Worker Reports: #{data} = #{result}"
+    IO.puts "#{result} = #{data}"
     {:reply, [result], state}
   end
 

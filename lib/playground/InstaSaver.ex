@@ -7,7 +7,7 @@ defmodule Playground.InstaSaver do
 	end
 
 	def parseInstagramURL(url) do
-      res = HTTPoison.get!(url)
+    res = HTTPoison.get!(url)
 	  Floki.find(res.body, "[property='og:image']") |> Floki.attribute("content") |> List.first
 	end
 
